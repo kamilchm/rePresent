@@ -48,7 +48,6 @@ RePresent.Grid = function () {
    */
   function hide(noCommit) {
     noCommit = noCommit || false;
-    hide();
 
     if (conf.layer) {
       RePresent.Util.Element.hide(conf.layer);
